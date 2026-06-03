@@ -1,0 +1,14 @@
+{
+  "name": "strat-air-website",
+  "version": "1.0.0",
+  "description": "Static business profile for Strat Air",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./css/style.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./css/style.css --minify"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.0",
+    "tailwindcss": "^4.0.0"
+  }
+}

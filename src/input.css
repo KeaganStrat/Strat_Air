@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* Put all your custom CSS styles right here */
+body {
+    background-color: #fafafa;
+}
+
+.custom-card-glow {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+}
