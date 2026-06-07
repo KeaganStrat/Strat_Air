@@ -3,9 +3,10 @@ document.addEventListener("DOMContentLoaded", () => {
     // Set Dynamic copyright year
     const copyrightElement = document.getElementById("copyright-year");
     
-    if (copyrightElement){
+    // Copyrights
+    if (copyrightElement) {
         const currentYear = new Date().getFullYear();
-        copyrightElement.textContent = `© ${currentYear} Strat Air Air-Conditioning. All Rights Reserved.`;
+        copyrightElement.textContent = `© ${currentYear} Stratair Airconditioning & Electrical (Pty) Ltd. All Rights Reserved.`;
     }
 
     // Business and Operation Hours calculation

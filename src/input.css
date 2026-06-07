@@ -1,10 +1,29 @@
 @import "tailwindcss";
 
-/* Put all your custom CSS styles right here */
+ /* StartAir Color pallete*/
+@theme {
+    
+  /* Core brand colors*/
+  --color-brand-primary: #10273d; /* Deep Navy - Good for headers/footers */
+  --color-brand-white: #eefbf9;   
+  --color-brand-black: #181717; 
+
+  /* Accent - from logo*/
+  --color-brand-accent: #0c86ba;  /* Strong Blue */
+  --color-brand-bright: #0396e1;  /* Bright Blue  */
+  --color-brand-light: #89c7e2;   /* Soft Blue */
+
+  /* Neutral/Earthy accents */
+  --color-brand-brown: #3b2516;   
+  --color-brand-beige: #968678;   
+}
+
+/* Custom utility overrides or animations */
 body {
-    background-color: #fafafa;
+    background-color: var(--color-brand-white);
+    color: var(--color-brand-black);
 }
 
 .custom-card-glow {
-    box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+    box-shadow: 0 0 20px rgba(12, 134, 186, 0.2); /* using #0c86ba */
 }

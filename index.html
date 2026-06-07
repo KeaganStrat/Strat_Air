@@ -3,86 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reliable Air-Conditioning Solutions in Alberton.">
     
-    <!-- Security Headers via Meta Tags -->
-    <!-- Enforces HTTPS and strictly restricts script execution to local files only -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://maps.google.com; upgrade-insecure-requests;">
     <meta http-equiv="X-Frame-Options" content="DENY">
     
     <title>Strat Air Air-Conditioning | Alberton</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans">
+<body class="bg-brand-white text-brand-black font-sans">
 
-    <!-- Navigation -->
     <nav class="sticky top-0 bg-white shadow-md z-50">
         <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-            <span class="text-xl font-bold text-blue-600 tracking-wide">STRAT AIR</span>
+            <a href="index.html" class="text-xl font-black text-brand-primary tracking-wide focus:outline-none focus:ring-2 focus:ring-brand-accent rounded">
+                STRAT <span class="text-brand-accent">AIR</span>
+            </a>
             <div class="space-x-6 text-sm font-medium">
-                <a href="#about" class="hover:text-blue-600 transition">About</a>
-                <a href="#services" class="hover:text-blue-600 transition">Services</a>
-                <a href="gallery.html" class="hover:text-blue-600 transition">Our Work</a>
-                <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+                <a href="index.html#services" class="hover:text-brand-accent transition">Services</a>
+                <a href="gallery.html" class="hover:text-brand-accent transition">Our Work</a>
+                <a href="index.html#contact" class="hover:text-brand-accent transition">Contact</a>
             </div>
         </div>
     </nav>
 
-    <!-- Hero -->
-    <header class="bg-slate-900 text-white py-24 px-4 text-center">
-        <div class="max-w-4xl mx-auto">
-            <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Reliable Air-Conditioning Solutions in Alberton</h1>
-            <p class="text-lg md:text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
-                Professional installation, maintenance, and repair services for your home and business.
+    <header class="bg-brand-primary text-brand-white py-20 px-4 text-center border-b-4 border-brand-accent">
+        <div class="max-w-4xl mx-auto flex flex-col items-center">
+            
+            <div class="bg-white p-4 rounded-2xl shadow-xl mb-6 max-w-[180px] md:max-w-[220px] transition transform hover:scale-105 duration-300">
+                <img src="./assets/logo.jpeg" alt="Strat Air Air-Conditioning Logo" class="w-full h-auto object-contain">
+            </div>
+
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-3">
+                Strat Air Air-Conditioning
+            </h1>
+            <p class="text-lg md:text-xl text-brand-light mb-8 max-w-xl font-light">
+                Professional installation, maintenance, and reliable repairs in Alberton.
             </p>
-            <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="https://wa.me/27680019354" target="_blank" rel="noopener noreferrer" class="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-lg shadow transition">
+
+            <div class="flex flex-col sm:flex-row justify-center gap-4 w-full sm:w-auto">
+                <a href="https://wa.me/27118672218" target="_blank" rel="noopener noreferrer" class="bg-[#25D366] hover:bg-[#1DA851] text-white font-semibold px-6 py-3 rounded-lg shadow-md transition text-center">
                     Get a Free Quote via WhatsApp
                 </a>
-                <a href="tel:xxxxxxxxxxx" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow transition">
+                <a href="tel:+27118672218" class="bg-brand-accent hover:bg-brand-bright text-white font-semibold px-6 py-3 rounded-lg shadow-md transition text-center">
                     Call Us Now
                 </a>
             </div>
         </div>
     </header>
 
-    <!-- Services Section -->
     <section id="services" class="py-16 px-4 max-w-6xl mx-auto">
-        <h2 class="text-3xl font-bold mb-12 text-center text-slate-900">What We Do</h2>
+        <h2 class="text-3xl font-bold mb-12 text-center text-brand-primary">What We Do</h2>
         <div class="grid md:grid-cols-3 gap-8">
-            <div class="bg-white p-8 rounded-xl shadow-md border border-gray-100">
-                <div class="text-blue-600 font-bold text-xl mb-3">Installations</div>
-                <p class="text-gray-600">Expert fitting of high-quality units tailored to your space.</p>
+            <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-accent hover:-translate-y-1 transition duration-300">
+                <div class="text-brand-accent font-bold text-xl mb-3">Installations</div>
+                <p class="text-brand-black opacity-80">Expert fitting of high-quality units tailored to your space and energy requirements.</p>
             </div>
-            <div class="bg-white p-8 rounded-xl shadow-md border border-gray-100">
-                <div class="text-blue-600 font-bold text-xl mb-3">Maintenance</div>
-                <p class="text-gray-600">Routine servicing to extend system lifespan and efficiency.</p>
+            <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-accent hover:-translate-y-1 transition duration-300">
+                <div class="text-brand-accent font-bold text-xl mb-3">Maintenance</div>
+                <p class="text-brand-black opacity-80">Routine servicing and deep cleaning to extend your system's lifespan and efficiency.</p>
             </div>
-            <div class="bg-white p-8 rounded-xl shadow-md border border-gray-100">
-                <div class="text-blue-600 font-bold text-xl mb-3">Repairs</div>
-                <p class="text-gray-600">Fast, reliable troubleshooting to get broken units running.</p>
+            <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-brand-accent hover:-translate-y-1 transition duration-300">
+                <div class="text-brand-accent font-bold text-xl mb-3">Repairs</div>
+                <p class="text-brand-black opacity-80">Fast, reliable troubleshooting and component replacement to get broken units running.</p>
             </div>
         </div>
     </section>
 
-    <!-- Interactive Footer Status -->
-    <footer id="contact" class="py-16 bg-slate-900 text-white px-4">
-        <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-4">Get In Touch</h2>
-            <div class="mb-6">
-                <!-- JavaScript will safely manipulate this node to show if open/closed -->
-                <span id="business-status" class="px-3 py-1 rounded-full text-sm font-semibold bg-gray-700 text-gray-300">
+    <footer id="contact" aria-labelledby="footer-heading" class="py-16 bg-brand-primary text-brand-white px-4 w-full flex flex-col items-center">
+        <div class="max-w-4xl mx-auto flex flex-col items-center text-center w-full">
+            
+            <img src="./assets/logo.jpeg" alt="Strat Air Logo" class="h-16 md:h-20 w-auto mb-6 opacity-90 hover:opacity-100 transition">
+
+            <h2 id="footer-heading" class="text-3xl font-bold mb-4">Get In Touch</h2>
+            
+            <div class="mb-8" aria-live="polite">
+                <span id="business-status" class="px-3 py-1 rounded-full text-sm font-semibold bg-brand-black text-brand-light border border-brand-light/30">
                     Checking Status...
                 </span>
             </div>
-            <p class="text-slate-400 mb-8">35 Jackson St, Brackenhurst, Alberton, 1448</p>
-            <a href="https://www.google.com/maps/dir/?api=1&destination=35+Jackson+St,+Brackenhurst,+Alberton,+1448" target="_blank" rel="noopener noreferrer" class="text-red-400 hover:underline">
-                Get Directions on Google Maps
-            </a>
-            <p id="copyright-year" class="text-sm text-slate-500 mt-12">&copy; Strat Air Air-Conditioning. All Rights Reserved.</p>
+            
+            <p class="text-brand-light opacity-80 mb-1">35 Jackson St, Brackenhurst, Alberton, 1448</p>
+            <p class="text-brand-light opacity-80 mb-8 font-medium tracking-wide">011 867 2218</p>
+            
+            <div class="flex flex-wrap justify-center gap-6" role="list">
+                <a href="https://wa.me/27118672218" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Us" class="text-[#25D366] hover:text-[#1DA851] hover:underline font-medium transition px-1">
+                    WhatsApp Us
+                </a>
+                <a href="tel:0118672218" aria-label="Call Us" class="text-brand-accent hover:text-brand-bright hover:underline font-medium transition px-1">
+                    Call Us
+                </a>
+                <a href="mailto:Strataircon@stratair.co.za?subject=Website%20Enquiry" aria-label="Email Us" class="text-brand-accent hover:text-brand-bright hover:underline font-medium transition px-1">
+                    Email Us
+                </a>
+                <a href="https://www.google.com/maps/dir/?api=1&destination=35+Jackson+St,+Brackenhurst,+Alberton,+1448" target="_blank" rel="noopener noreferrer" aria-label="Get Directions" class="text-brand-accent hover:text-brand-bright hover:underline font-medium transition px-1">
+                    Get Directions
+                </a>
+            </div>
+
+            <p id="copyright-year" class="text-sm text-brand-beige mt-12">
+                © Stratair Airconditioning & Electrical (Pty) Ltd. All Rights Reserved.
+            </p>
         </div>
     </footer>
 
-    <!-- Scripts deferred for performance and security -->
-    <script src="./scripts/script.js" defer></script>
+    <script src="./src/scripts/script.js" defer></script>
 </body>
 </html>
