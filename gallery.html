@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="View our gallery of professional air-conditioning installations and repairs in Alberton by Strat Air.">
+    <meta name="description" content="View our gallery of professional air-conditioning installations and repairs.">
     
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://maps.google.com; upgrade-insecure-requests;">
     <meta http-equiv="X-Frame-Options" content="DENY">
@@ -11,78 +11,92 @@
     <title>Our Work | Strat Air Air-Conditioning</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans flex flex-col min-h-screen">
+<body class="bg-brand-white text-brand-black font-sans flex flex-col min-h-screen">
 
     <header class="sticky top-0 bg-white shadow-md z-50">
-        <nav aria-label="Main Navigation" class="max-w-6xl mx-auto px-4 py-4 flex flex-wrap justify-between items-center gap-4">
-            <a href="index.html" aria-label="Strat Air Home" class="text-xl font-bold text-blue-600 tracking-wide focus:outline-none focus:ring-2 focus:ring-blue-600 rounded">STRAT AIR</a>
-            
-            <div class="space-x-6 text-sm font-medium" role="list">
-                <a href="index.html" class="hover:text-blue-600 transition focus:outline-none focus:ring-2 focus:ring-blue-600 rounded px-1">Home</a>
-                <a href="index.html#services" class="hover:text-blue-600 transition focus:outline-none focus:ring-2 focus:ring-blue-600 rounded px-1">Services</a>
-                <a href="gallery.html" aria-current="page" class="text-blue-600 border-b-2 border-blue-600 pb-1 focus:outline-none focus:ring-2 focus:ring-blue-600 rounded px-1">Our Work</a>
-                <a href="index.html#contact" class="hover:text-blue-600 transition focus:outline-none focus:ring-2 focus:ring-blue-600 rounded px-1">Contact</a>
+        <nav class="sticky top-0 bg-white shadow-md z-50">
+            <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+                <a href="index.html" class="text-xl font-black text-brand-primary tracking-wide focus:outline-none focus:ring-2 focus:ring-brand-accent rounded">
+                    STRAT <span class="text-brand-accent">AIR</span>
+                </a>
+                <div class="space-x-6 text-sm font-medium">
+                    <a href="index.html#services" class="hover:text-brand-accent transition">Services</a>
+                    <a href="gallery.html" class="hover:text-brand-accent transition">Our Work</a>
+                    <a href="index.html#contact" class="hover:text-brand-accent transition">Contact</a>
+                </div>
             </div>
         </nav>
     </header>
 
     <main class="flex-grow flex flex-col w-full" id="main-content">
-        
-        <section aria-labelledby="gallery-heading" class="bg-slate-900 text-white py-16 px-4 flex flex-col items-center text-center">
+        <section aria-labelledby="gallery-heading" class="bg-brand-primary text-brand-white py-16 px-4 flex flex-col items-center text-center border-b-4 border-brand-accent">
             <div class="max-w-4xl mx-auto w-full flex flex-col items-center">
                 <h1 id="gallery-heading" class="text-4xl font-extrabold mb-4">Our Recent Projects</h1>
-                <p class="text-lg text-slate-300 max-w-2xl">
+                <p class="text-lg text-brand-light max-w-2xl">
                     Take a look at some of our clean, efficient installations and repair work across Alberton.
                 </p>
             </div>
         </section>
 
-        <!-- Image Gallery -->
         <section aria-label="Image Gallery" class="py-16 px-4 w-full flex justify-center">
             <div class="max-w-6xl w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                 
-                <figure class="group relative bg-white rounded-xl overflow-hidden aspect-square shadow-md flex flex-col items-center justify-center border border-gray-200 hover:shadow-lg transition">
-                    <svg aria-hidden="true" class="w-12 h-12 text-gray-400 mb-3 group-hover:scale-110 transition duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-                    <figcaption class="text-gray-600 font-medium px-4 text-center">Residential Split Unit Installation</figcaption>
+                <figure class="group relative bg-white rounded-xl overflow-hidden aspect-square shadow-lg flex flex-col items-center justify-center border border-brand-light/30 hover:shadow-xl transition">
+                    <svg aria-hidden="true" class="w-12 h-12 text-brand-accent mb-3 group-hover:scale-110 group-hover:text-brand-bright transition duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    <figcaption class="text-brand-primary font-bold px-4 text-center">Residential Split Unit</figcaption>
                 </figure>
 
-                <figure class="group relative bg-white rounded-xl overflow-hidden aspect-square shadow-md flex flex-col items-center justify-center border border-gray-200 hover:shadow-lg transition">
-                    <svg aria-hidden="true" class="w-12 h-12 text-gray-400 mb-3 group-hover:scale-110 transition duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-                    <figcaption class="text-gray-600 font-medium px-4 text-center">Commercial Office Ducting</figcaption>
+                <figure class="group relative bg-white rounded-xl overflow-hidden aspect-square shadow-lg flex flex-col items-center justify-center border border-brand-light/30 hover:shadow-xl transition">
+                    <svg aria-hidden="true" class="w-12 h-12 text-brand-accent mb-3 group-hover:scale-110 group-hover:text-brand-bright transition duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    <figcaption class="text-brand-primary font-bold px-4 text-center">Commercial Office Ducting</figcaption>
                 </figure>
 
-                <figure class="group relative bg-white rounded-xl overflow-hidden aspect-square shadow-md flex flex-col items-center justify-center border border-gray-200 hover:shadow-lg transition">
-                    <svg aria-hidden="true" class="w-12 h-12 text-gray-400 mb-3 group-hover:scale-110 transition duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-                    <figcaption class="text-gray-600 font-medium px-4 text-center">Compressor Repair & Servicing</figcaption>
+                <figure class="group relative bg-white rounded-xl overflow-hidden aspect-square shadow-lg flex flex-col items-center justify-center border border-brand-light/30 hover:shadow-xl transition">
+                    <svg aria-hidden="true" class="w-12 h-12 text-brand-accent mb-3 group-hover:scale-110 group-hover:text-brand-bright transition duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    <figcaption class="text-brand-primary font-bold px-4 text-center">Compressor Servicing</figcaption>
                 </figure>
 
             </div>
         </section>
     </main>
 
-    <!-- Footer Section (Contact and matps etc)-->
-    <footer id="contact" aria-labelledby="footer-heading" class="py-16 bg-slate-900 text-white px-4 w-full flex flex-col items-center">
+    <footer id="contact" aria-labelledby="footer-heading" class="py-16 bg-brand-primary text-brand-white px-4 w-full flex flex-col items-center">
         <div class="max-w-4xl mx-auto flex flex-col items-center text-center w-full">
+            
+            <img src="./assets/logo.jpeg" alt="Strat Air Logo" class="h-16 md:h-20 w-auto mb-6 opacity-90 hover:opacity-100 transition">
+
             <h2 id="footer-heading" class="text-3xl font-bold mb-4">Get In Touch</h2>
             
-            <div class="mb-6" aria-live="polite">
-                <span id="business-status" class="px-3 py-1 rounded-full text-sm font-semibold bg-gray-700 text-gray-300">
+            <div class="mb-8" aria-live="polite">
+                <span id="business-status" class="px-3 py-1 rounded-full text-sm font-semibold bg-brand-black text-brand-light border border-brand-light/30">
                     Checking Status...
                 </span>
             </div>
             
-            <p class="text-slate-400 mb-8">35 Jackson St, Brackenhurst, Alberton, 1448</p>
+            <p class="text-brand-light opacity-80 mb-1">35 Jackson St, Brackenhurst, Alberton, 1448</p>
+            <p class="text-brand-light opacity-80 mb-8 font-medium tracking-wide">011 867 2218</p>
             
-            <div class="space-x-6 flex justify-center" role="list">
-                <a href="https://wa.me/27680019354" target="_blank" rel="noopener noreferrer" aria-label="Send us a WhatsApp message" class="text-green-400 hover:underline focus:outline-none focus:ring-2 focus:ring-green-400 rounded px-1">WhatsApp Us</a>
-                <a href="mailto:info@stratair.co.za?subject=Website%20Enquiry" aria-label="Send us an Email" class="text-blue-400 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-400 rounded px-1">Email Us</a>
-                <a href="https://www.google.com/maps/dir/?api=1&destination=35+Jackson+St,+Brackenhurst,+Alberton,+1448" target="_blank" rel="noopener noreferrer" aria-label="Get directions on Google Maps" class="text-red-400 hover:underline focus:outline-none focus:ring-2 focus:ring-red-400 rounded px-1">Get Directions</a>
+            <div class="flex flex-wrap justify-center gap-6" role="list">
+                <a href="https://wa.me/27118672218" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Us" class="text-[#25D366] hover:text-[#1DA851] hover:underline font-medium transition px-1">
+                    WhatsApp Us
+                </a>
+                <a href="tel:0118672218" aria-label="Call Us" class="text-brand-accent hover:text-brand-bright hover:underline font-medium transition px-1">
+                    Call Us
+                </a>
+                <a href="mailto:Strataircon@stratair.co.za?subject=Website%20Enquiry" aria-label="Email Us" class="text-brand-accent hover:text-brand-bright hover:underline font-medium transition px-1">
+                    Email Us
+                </a>
+                <a href="https://www.google.com/maps/dir/?api=1&destination=35+Jackson+St,+Brackenhurst,+Alberton,+1448" target="_blank" rel="noopener noreferrer" aria-label="Get Directions" class="text-brand-accent hover:text-brand-bright hover:underline font-medium transition px-1">
+                    Get Directions
+                </a>
             </div>
 
-            <p id="copyright-year" class="text-sm text-slate-500 mt-12">© Strat Air Air-Conditioning. All Rights Reserved.</p>
+            <p id="copyright-year" class="text-sm text-brand-beige mt-12">
+                © Stratair Airconditioning & Electrical (Pty) Ltd. All Rights Reserved.
+            </p>
         </div>
     </footer>
 
-    <script src="./scripts/script.js" defer></script>
+    <script src="./src/scripts/script.js" defer></script>
 </body>
 </html>
